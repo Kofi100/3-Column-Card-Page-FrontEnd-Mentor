@@ -2,6 +2,9 @@
   --Brightorange: hsl(31, 77%, 52%);
  --Darkcyan: hsl(184, 100%, 22%);
   --Verydarkcyan: hsl(179, 100%, 13%);
+
+  --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+--Verylightgray: hsl(0, 0%, 95%);
 }
 
 
@@ -9,12 +12,14 @@ body{
   display: flex;
   min-height: 100vh;
   align-items: center;
-  color:white;
+  
   font-size: 15px;
   /* font-family: "Big Shoulders";
   font-weight: 400; */
   font-family: "Lexend Deca";
   font-weight: 400;
+  color:var(--Transparentwhite);/*text color*/
+  background-color: var(--Verylightgray);/*BG color*/
 }
 
 
@@ -31,6 +36,7 @@ h2{
   font-weight: 700;
   text-transform:uppercase;
   margin: 0;
+  color: var(--Verylightgray);
   
 }
 .card{

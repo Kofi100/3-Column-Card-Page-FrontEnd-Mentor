@@ -1,54 +1,37 @@
-# React + TypeScript + Vite
+# 3 column preview Card Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Links
 
-Currently, two official plugins are available:
+<a href="https://github.com/Kofi100/product-preview-card"><img src="./images/needed/github-mark/github-mark-white.svg" style=""> </a>
+<a href="https://kofi100.github.io/product-preview-card/"> <img src="./images/needed/githubPages.jpg" style="height:100px"></a>
+<a href="https://www.frontendmentor.io/solutions/intro-component-using-htmlcssjavascript-HKi0Wx4WRY"><img src="./images/needed/frontEndMentor.png" style="width:200px"></a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+This is a project to design to build out this 3-column preview card component and get it looking as close to the design as possible.
+The objectives of this project was to:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Make the users have a `optimal view` of the webpage depending on their devices.
+- Make users see the `focus and hover states` of some important elements.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Screenshots
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Desktop and Mobile Views
+![](./images/screenshotDesktop.png)
+![](./images/screenshotMobile.png)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Active States
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+![](./images/screenshotActive.png)
+
+## Built with
+
+- HTML
+- CSS
+- React
+
+# Contacts
+
+<a href="https://github.com/Kofi100"><img src="./images/needed/github-mark/github-mark-white.svg" style=""> </a>
+<a href="https://www.frontendmentor.io/profile/Kofi100">
+<img src="./images/needed/frontEndMentor.png" style="width:200px"></a>
