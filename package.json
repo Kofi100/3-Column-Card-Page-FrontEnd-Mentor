@@ -1,14 +1,17 @@
 {
+  "homepage":"https://Kofi100.github.io/3-Column-Card-Page-FrontEnd-Mentor",
   "name": "3-column-preview-card-component-main",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -29,8 +32,7 @@
     "vite": "^6.2.0"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Kofi100/3-Column-Card-Page-FrontEnd-Mentor"
-}
-
+    "type": "git",
+    "url": "https://github.com/Kofi100/3-Column-Card-Page-FrontEnd-Mentor"
+  }
 }
