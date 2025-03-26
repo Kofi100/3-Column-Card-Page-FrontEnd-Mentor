@@ -2,7 +2,7 @@
 
 ## Project Links
 
-<a href="https://github.com/Kofi100/product-preview-card"><img src="./images/needed/github-mark/github-mark-white.svg" style=""> </a>
+<a href="https://github.com/Kofi100/3-Column-Card-Page-FrontEnd-Mentor"><img src="./images/needed/github-mark/github-mark-white.svg" style=""> </a>
 <a href="https://kofi100.github.io/product-preview-card/"> <img src="./images/needed/githubPages.jpg" style="height:100px"></a>
 <a href="https://www.frontendmentor.io/solutions/intro-component-using-htmlcssjavascript-HKi0Wx4WRY"><img src="./images/needed/frontEndMentor.png" style="width:200px"></a>
 
@@ -17,18 +17,26 @@ The objectives of this project was to:
 ## Screenshots
 
 Desktop and Mobile Views
-![](./images/screenshotDesktop.png)
-![](./images/screenshotMobile.png)
+![](./screenshots/Screenshot%20desktop.png)
+![](./screenshots/Screenshot%20mobile.png)
 
 Active States
 
-![](./images/screenshotActive.png)
+![](./screenshots/active%20States.png)
 
 ## Built with
 
 - HTML
 - CSS
 - React
+
+## What I learnt
+
+- Actually learnt a lot about React especially how Components are named starting with a capital letter which took me by surprise,practising props/interfaces, how to use them to dynamically set the looks of a Component,and how to declare class names and the like in a React (.tsx) file.
+
+- I also revised and learnt how to install React in other existing folders with ease.
+
+(A little note: the Learn Note button is the Component I managed to do. It was fun to create it ngl,using the knowledge I got beforehand).
 
 # Contacts
 

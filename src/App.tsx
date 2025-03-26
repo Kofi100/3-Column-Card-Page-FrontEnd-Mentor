@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './src/assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './src/assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 import LearnMoreButtonComponent from './components/learnMoreButtonComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
